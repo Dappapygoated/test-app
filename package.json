@@ -8,10 +8,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.21.2",
     "nodemon": "^3.1.9",
     "test-app": "file:"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dappapygoated/test-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dappapygoated/test-app/issues"
+  },
+  "homepage": "https://github.com/Dappapygoated/test-app#readme",
+  "description": ""
 }
