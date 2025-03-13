@@ -26,7 +26,7 @@ app.get('/login', (req, res) => {
 app.post('/login', (req,res) => {
     const { username, password } = req.body;
 
-    res.send(`<h3>Login successful! Welcome, ${password}.</h3>`)
+    res.send(`<h3>Login successful! Welcome, ${username}.</h3>`)
 })
 
 app.listen(3000, () => {
